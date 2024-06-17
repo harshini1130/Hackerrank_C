@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b;
+    float c,d;
+    scanf("%d %d",&a,&b);
+    scanf("%f %f",&c,&d);
+    
+    int sum_int, diff_int;
+    sum_int = a + b;
+    diff_int = a - b;
+    
+    float sum_f, diff_f;
+    sum_f = c + d;
+    diff_f = c - d;
+    
+    printf("%d %d",sum_int, diff_int);
+    printf("\n");
+    printf("%.1f %.1f",sum_f, diff_f);
+    return 0;
+}
